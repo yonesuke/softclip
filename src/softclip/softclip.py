@@ -1,4 +1,3 @@
-from turtle import forward
 import jax.numpy as jnp
 from jax import nn
 
