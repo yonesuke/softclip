@@ -13,7 +13,7 @@ pip install git+git://github.com/yonesuke/softclip.git
 
 ## QuickStart
 The `forward` method is the function from the real number space to the interval [low, high].
-The `backward` method is the function from the interval [low, high] to the real number space, and is the inverse function of `forward`.
+The `inverse` method is the function from the interval [low, high] to the real number space, and is the inverse function of `forward`.
 ```python
 from softclip import SoftClip
 
