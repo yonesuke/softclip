@@ -1,5 +1,6 @@
 import jax.numpy as jnp
 from jax import nn
+import distrax
 
 class SoftClip:
     def __init__(self, low=None, high=None, hinge_softness=1.0):
@@ -30,6 +31,12 @@ class SoftClip:
 
     def inverse(self, y):
         return self.inverse_fn(y)
+
+    def to_distrax(self):
+        return distrax.Lambda(
+            forward=self.forward_fn,
+            inverse=self.inverse_fn
+        )
 
     def __repr__(self):
         return f"softclip.SoftClip(low={self.low}, high={self.high}, hinge_softness={self.hinge_softness})"
