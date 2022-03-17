@@ -12,7 +12,7 @@ setuptools.setup(
     ],
     author="yonesuke",
     author_email="13e.e.c.13@gmail.com",
-    description="JAX/Flax implementation of rational neural nets",
+    description="JAX/Flax implementation of softclip",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/yonesuke/softclip",
