@@ -9,10 +9,10 @@ This is useful when you want to optimize a parameter that is assumed to be insid
 
 ## Installation
 
-softclip can be installed with pip directly from GitHub, with the following command:
+`softclip` can be installed with pip directly from GitHub, with the following command:
 
 ```
-pip install git+https://github.com/yonesuke/softclip.git
+python -m pip install softclip
 ```
 
 ## QuickStart
