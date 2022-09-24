@@ -1,4 +1,6 @@
 # softclip
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/softclip)
+![PyPI](https://img.shields.io/pypi/v/softclip)
 
 Simple JAX implementation of softclip, inspired by tensorflow probability
 
